@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200&family=Euphoria+Script&display=swap');
+
+@font-face {
+  font-family: 'sochara';
+  src: local('sochara'), url(./assets/fonts/fancy.ttf);
+}
+
+:root{
+  --nude:#e4d3bf;
+  --radius:25px;
+  --shadow:0px 1px 5px 0px #fdf5ff;
+}
+
+body{
+  margin: 0px;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.sochara-text{
+  font-family: 'sochara';
+}
+
+.socharaBackgroundColor{
+background-color: var(--nude);
+}
+
+.page{
+  min-height: 70vh;
+}
+
+.link-text{
+  font-family: 'Corben', cursive;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  transition: 0.5s;
+  color: rgb(83, 60, 64);
+}
