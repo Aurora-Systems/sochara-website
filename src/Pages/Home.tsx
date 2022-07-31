@@ -1,5 +1,6 @@
 import {Fade} from "react-awesome-reveal";
 import { colStyle } from "../Components/cssStyles";
+import Footer from "../Components/Footer";
 
 const Home=()=>{
     return(
@@ -44,7 +45,7 @@ const Home=()=>{
                     </div>
                 </div>
             </Fade>
-
+            
         </div>
     )
 }

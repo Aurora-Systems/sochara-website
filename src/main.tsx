@@ -9,6 +9,7 @@ import Shop from './Pages/Shop'
 import Blog from './Pages/Blog'
 import ContactUs from './Pages/ContactUs'
 import NavBar from './Components/NavBar';
+import Footer from './Components/Footer';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
@@ -23,6 +24,9 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
       <Route path="contact-us" element={<ContactUs/>}/>
     </Routes>
    </BrowserRouter>
+   <br/>
+   
    </div>
+   <Footer/>
   </React.StrictMode>
 )

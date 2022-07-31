@@ -14,7 +14,7 @@
 
 body{
   margin: 0px;
-  font-family: 'Epilogue', sans-serif;
+  font-family: 'Corben', cursive;
 }
 
 .sochara-text{
@@ -42,4 +42,8 @@ a{
 a:hover{
   transition: 0.5s;
   color: rgb(83, 60, 64);
+}
+
+.footer{
+ background-color: white;
 }
