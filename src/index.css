@@ -8,6 +8,7 @@
 
 :root{
   --nude:#e4d3bf;
+  --nude-text:#af9670;
   --radius:25px;
   --shadow:0px 1px 5px 0px #fdf5ff;
 }
@@ -46,4 +47,10 @@ a:hover{
 
 .footer{
  background-color: white;
+
+ padding: 10px;
+}
+
+.nude-text{
+  color: var(--nude-text);
 }

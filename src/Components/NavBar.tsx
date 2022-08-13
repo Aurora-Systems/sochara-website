@@ -5,9 +5,9 @@ const NavBar=()=>{
         <div className='container-fluid socharaBackgroundColor'>
         <Navbar collapseOnSelect  expand="sm" className="container-fluid ">
           <Container>
-            <Navbar.Brand className="row " href="#home">
+            <Navbar.Brand className="row " href="/">
               <div className="col-sm">
-                <img className="Sirv" data-src="https://gemittyi.sirv.com/SOCHARA/IMG-20210624-WA0007.jpg"  width="40" alt="" />
+                <h1 className='sochara-text'>Sochara</h1>
               </div>
             </Navbar.Brand>
             <Navbar.Toggle className="menu">

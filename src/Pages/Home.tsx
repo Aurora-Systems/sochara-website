@@ -5,7 +5,7 @@ import Footer from "../Components/Footer";
 const Home=()=>{
     return(
         <div>
-            <Fade direction="down" cascade={true}>
+         
             <div className="row page">
                 <div className="col-sm flex-column d-flex align-items-center justify-content-evenly">   
                     <div>
@@ -17,9 +17,9 @@ const Home=()=>{
                     </div>   
                 </div>
             </div>
-            </Fade>
+            
             <br/>
-            <Fade direction="down" cascade={true}>
+            
                 <div className="row">
                     <div className="col-sm">
                         <img className="Sirv rounded" data-src="https://gemittyi.sirv.com/SOCHARA/DSC_8287.JPG" alt="" />
@@ -28,9 +28,9 @@ const Home=()=>{
                        <a href="/our-story"><h1 className="link-text display-1"><u>About</u></h1></a>
                     </div>
                 </div>
-            </Fade>
+           
             <br/>
-            <Fade direction="down" cascade={true}>
+            
                 <div className="container">
                     <div className="row">
                         <div className="col-sm">
@@ -44,8 +44,6 @@ const Home=()=>{
                         </div>
                     </div>
                 </div>
-            </Fade>
-            
         </div>
     )
 }
